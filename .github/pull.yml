@@ -1,4 +1,3 @@
-# 方案B可参考这里
 version: "1"
 rules:                      # Array of rules
   - base: master            # Required. Target branch
