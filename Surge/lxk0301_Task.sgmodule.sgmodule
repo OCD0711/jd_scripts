@@ -1,5 +1,6 @@
 #!name=lxk0301 iOS Tasks Module
 #!desc=iOS Tasks 模块配置
+#!system=ios
 
 # Task模块配置 By lxk0301
 # GitHub主页(https://github.com/lxk0301/jd_scripts)
@@ -71,3 +72,4 @@ cron "30 8 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scrip
 #以下为短期活动
 #健康抽奖机
 cron "30 2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_health.js, timeout=750, wake-system=1, tag=健康抽奖机
+
